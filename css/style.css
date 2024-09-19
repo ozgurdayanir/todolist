@@ -53,8 +53,8 @@ ul li.checked::before {
 
 .close {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 16px;
+  top: 16px;
   padding: 12px 16px 12px 16px;
 }
 
@@ -106,23 +106,6 @@ input {
 
 .button:hover {
   background-color: #bbb;
-}
-
-li button {
-  background-color:#d8d8d8;
-  border: 0;
-  border-radius: 100%;
-  padding: 4px 4px;
-  display: flex;
-  color:#555;
-}
-
-li button:hover {
-  background-color: #cfcfcf;
-  border: 0;
-  border-radius: 100%;
-  padding: 4px 4px;
-  display: flex;
 }
 
 .completed {
